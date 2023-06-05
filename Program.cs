@@ -366,7 +366,7 @@ void shaffle(int[,] matr){
 
 
 
-System.Console.WriteLine("Введите количеттво строк и количество столбцов(последовательно, через enter).");
+System.Console.WriteLine("Введите количеттво строк и количество столбцов(последовательно, через enter). Одна из размерностей должна быть чётной");
 int[,] matrix3 = create_matrix_random_int(Convert.ToInt32(Console.ReadLine()), Convert.ToInt32(Console.ReadLine()));
 System.Console.WriteLine("До перестановки:");
 print_matrix_int(matrix3);
